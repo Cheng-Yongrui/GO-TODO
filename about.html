@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="zh-cn"><head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Showcasing beautiful icon designs from the iOS App Store">
+
+    <!-- Title标题 -->
+    <title>关于我们</title>
+
+    <!-- Gonna be accessing a CDN 将要访问的CDN -->
+    <link rel="preconnect" href="https://cdn.jim-nielsen.com">
+
+    <!-- Favicons etc. 图标等-->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/styles/reset.css">
+    <link rel="stylesheet" href="/assets/styles/index.css">
+
+    
+    <!-- XML & JSON Feeds -->
+    <!--
+    <link rel="alternate" type="application/rss+xml" title="iOS Icon Gallery" href="https://feeds.feedburner.com/iosicongallery">
+    <link rel="alternate" title="JSON Feed" type="application/json" href="/feed.json">
+    这个地方可以不用，是请求app列表的
+  -->
+
+    
+    <!-- Other page-specific head elements,
+      i.e. open graph images, <style> blocks, etc -->
+    
+  </head>
+  <body class="iosicongallery js">
+    <!--
+      这里下面一堆是svg
+    -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="sidebar" viewBox="0 -960 960 960">
+    <path d="M172.309-180.001q-29.923 0-51.115-21.193-21.193-21.192-21.193-51.115v-455.382q0-29.923 21.193-51.115 21.192-21.193 51.115-21.193h615.382q29.923 0 51.115 21.193 21.193 21.192 21.193 51.115v455.382q0 29.923-21.193 51.115-21.192 21.193-51.115 21.193H172.309ZM379.999-240h407.692q5.385 0 8.847-3.462 3.462-3.462 3.462-8.847v-455.382q0-5.385-3.462-8.847-3.462-3.462-8.847-3.462H379.999v480ZM320-240v-480H172.309q-5.385 0-8.847 3.462-3.462 3.462-3.462 8.847v455.382q0 5.385 3.462 8.847 3.462 3.462 8.847 3.462H320Zm-160 0V-720-240Zm160 0h59.999H320Zm0-480h59.999H320Z"></path>
+  </symbol>
+  <symbol id="arrow-left" viewBox="0 0 24 24">
+    <path d="M16.375 22L6.375 12L16.375 2L17.775 3.425L9.2 12L17.775 20.575L16.375 22Z"></path>
+  </symbol>
+  <symbol id="clear" viewBox="0 0 24 24">
+    <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.151 17.943l-4.143-4.102-4.117 4.159-1.833-1.833 4.104-4.157-4.162-4.119 1.833-1.833 4.155 4.102 4.106-4.16 1.849 1.849-4.1 4.141 4.157 4.104-1.849 1.849z"></path>
+  </symbol>
+  <symbol id="search" viewBox="0 0 24 24">
+    <path d="M19.6 21L13.3 14.7C12.8 15.1 12.225 15.4167 11.575 15.65C10.925 15.8833 10.2333 16 9.5 16C7.68333 16 6.14583 15.3708 4.8875 14.1125C3.62917 12.8542 3 11.3167 3 9.5C3 7.68333 3.62917 6.14583 4.8875 4.8875C6.14583 3.62917 7.68333 3 9.5 3C11.3167 3 12.8542 3.62917 14.1125 4.8875C15.3708 6.14583 16 7.68333 16 9.5C16 10.2333 15.8833 10.925 15.65 11.575C15.4167 12.225 15.1 12.8 14.7 13.3L21 19.6L19.6 21ZM9.5 14C10.75 14 11.8125 13.5625 12.6875 12.6875C13.5625 11.8125 14 10.75 14 9.5C14 8.25 13.5625 7.1875 12.6875 6.3125C11.8125 5.4375 10.75 5 9.5 5C8.25 5 7.1875 5.4375 6.3125 6.3125C5.4375 7.1875 5 8.25 5 9.5C5 10.75 5.4375 11.8125 6.3125 12.6875C7.1875 13.5625 8.25 14 9.5 14Z"></path>
+  </symbol>
+  <symbol id="error" viewBox="0 0 24 24">
+    <path d="M16.143 2l5.857 5.858v8.284l-5.857 5.858h-8.286l-5.857-5.858v-8.284l5.857-5.858h8.286zm.828-2h-9.942l-7.029 7.029v9.941l7.029 7.03h9.941l7.03-7.029v-9.942l-7.029-7.029zm-6.471 6h3l-1 8h-1l-1-8zm1.5 12.25c-.69 0-1.25-.56-1.25-1.25s.56-1.25 1.25-1.25 1.25.56 1.25 1.25-.56 1.25-1.25 1.25z"></path>
+  </symbol>
+  <symbol id="info" viewBox="0 0 24 24">
+    <path d="M11 17h2v-6h-2Zm1-8q.425 0 .713-.288Q13 8.425 13 8t-.287-.713Q12.425 7 12 7t-.712.287Q11 7.575 11 8t.288.712Q11.575 9 12 9Zm0 13q-2.075 0-3.9-.788-1.825-.787-3.175-2.137-1.35-1.35-2.137-3.175Q2 14.075 2 12t.788-3.9q.787-1.825 2.137-3.175 1.35-1.35 3.175-2.138Q9.925 2 12 2t3.9.787q1.825.788 3.175 2.138 1.35 1.35 2.137 3.175Q22 9.925 22 12t-.788 3.9q-.787 1.825-2.137 3.175-1.35 1.35-3.175 2.137Q14.075 22 12 22Zm0-2q3.35 0 5.675-2.325Q20 15.35 20 12q0-3.35-2.325-5.675Q15.35 4 12 4 8.65 4 6.325 6.325 4 8.65 4 12q0 3.35 2.325 5.675Q8.65 20 12 20Zm0-8Z"></path>
+  </symbol>
+  <symbol id="apps" viewBox="0 0 24 24">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M9 5H5V9H9V5ZM5 3C3.89543 3 3 3.89543 3 5V9C3 10.1046 3.89543 11 5 11H9C10.1046 11 11 10.1046 11 9V5C11 3.89543 10.1046 3 9 3H5Z"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M9 15H5V19H9V15ZM5 13C3.89543 13 3 13.8954 3 15V19C3 20.1046 3.89543 21 5 21H9C10.1046 21 11 20.1046 11 19V15C11 13.8954 10.1046 13 9 13H5Z"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M19 5H15V9H19V5ZM15 3C13.8954 3 13 3.89543 13 5V9C13 10.1046 13.8954 11 15 11H19C20.1046 11 21 10.1046 21 9V5C21 3.89543 20.1046 3 19 3H15Z"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M19 15H15V19H19V15ZM15 13C13.8954 13 13 13.8954 13 15V19C13 20.1046 13.8954 21 15 21H19C20.1046 21 21 20.1046 21 19V15C21 13.8954 20.1046 13 19 13H15Z"></path>
+  </symbol>
+  <symbol id="home" viewBox="0 0 24 24">
+    <path d="M6 19H9V13H15V19H18V10L12 5.5L6 10V19ZM4 21V9L12 3L20 9V21H13V15H11V21H4Z"></path>
+  </symbol>
+  <symbol id="about" viewBox="0 0 24 24">
+    <path d="M11.95 18C12.3 18 12.5958 17.8792 12.8375 17.6375C13.0792 17.3958 13.2 17.1 13.2 16.75C13.2 16.4 13.0792 16.1042 12.8375 15.8625C12.5958 15.6208 12.3 15.5 11.95 15.5C11.6 15.5 11.3042 15.6208 11.0625 15.8625C10.8208 16.1042 10.7 16.4 10.7 16.75C10.7 17.1 10.8208 17.3958 11.0625 17.6375C11.3042 17.8792 11.6 18 11.95 18ZM11.05 14.15H12.9C12.9 13.6 12.9625 13.1667 13.0875 12.85C13.2125 12.5333 13.5667 12.1 14.15 11.55C14.5833 11.1167 14.925 10.7042 15.175 10.3125C15.425 9.92083 15.55 9.45 15.55 8.9C15.55 7.96667 15.2083 7.25 14.525 6.75C13.8417 6.25 13.0333 6 12.1 6C11.15 6 10.3792 6.25 9.7875 6.75C9.19583 7.25 8.78333 7.85 8.55 8.55L10.2 9.2C10.2833 8.9 10.4708 8.575 10.7625 8.225C11.0542 7.875 11.5 7.7 12.1 7.7C12.6333 7.7 13.0333 7.84583 13.3 8.1375C13.5667 8.42917 13.7 8.75 13.7 9.1C13.7 9.43333 13.6 9.74583 13.4 10.0375C13.2 10.3292 12.95 10.6 12.65 10.85C11.9167 11.5 11.4667 11.9917 11.3 12.325C11.1333 12.6583 11.05 13.2667 11.05 14.15ZM12 22C10.6167 22 9.31667 21.7375 8.1 21.2125C6.88333 20.6875 5.825 19.975 4.925 19.075C4.025 18.175 3.3125 17.1167 2.7875 15.9C2.2625 14.6833 2 13.3833 2 12C2 10.6167 2.2625 9.31667 2.7875 8.1C3.3125 6.88333 4.025 5.825 4.925 4.925C5.825 4.025 6.88333 3.3125 8.1 2.7875C9.31667 2.2625 10.6167 2 12 2C13.3833 2 14.6833 2.2625 15.9 2.7875C17.1167 3.3125 18.175 4.025 19.075 4.925C19.975 5.825 20.6875 6.88333 21.2125 8.1C21.7375 9.31667 22 10.6167 22 12C22 13.3833 21.7375 14.6833 21.2125 15.9C20.6875 17.1167 19.975 18.175 19.075 19.075C18.175 19.975 17.1167 20.6875 15.9 21.2125C14.6833 21.7375 13.3833 22 12 22ZM12 20C14.2333 20 16.125 19.225 17.675 17.675C19.225 16.125 20 14.2333 20 12C20 9.76667 19.225 7.875 17.675 6.325C16.125 4.775 14.2333 4 12 4C9.76667 4 7.875 4.775 6.325 6.325C4.775 7.875 4 9.76667 4 12C4 14.2333 4.775 16.125 6.325 17.675C7.875 19.225 9.76667 20 12 20Z"></path>
+  </symbol>
+  <symbol id="developers" viewBox="0 0 24 24">
+    <path d="M8 12C6.9 12 5.95833 11.6083 5.175 10.825C4.39167 10.0417 4 9.1 4 8C4 6.9 4.39167 5.95833 5.175 5.175C5.95833 4.39167 6.9 4 8 4C9.1 4 10.0417 4.39167 10.825 5.175C11.6083 5.95833 12 6.9 12 8C12 9.1 11.6083 10.0417 10.825 10.825C10.0417 11.6083 9.1 12 8 12ZM0 20V17.2C0 16.65 0.141667 16.1333 0.425 15.65C0.708333 15.1667 1.1 14.8 1.6 14.55C2.45 14.1167 3.40833 13.75 4.475 13.45C5.54167 13.15 6.71667 13 8 13H8.35C8.45 13 8.55 13.0167 8.65 13.05C8.51667 13.35 8.40417 13.6625 8.3125 13.9875C8.22083 14.3125 8.15 14.65 8.1 15H8C6.81667 15 5.75417 15.15 4.8125 15.45C3.87083 15.75 3.1 16.05 2.5 16.35C2.35 16.4333 2.22917 16.55 2.1375 16.7C2.04583 16.85 2 17.0167 2 17.2V18H8.3C8.4 18.35 8.53333 18.6958 8.7 19.0375C8.86667 19.3792 9.05 19.7 9.25 20H0ZM8 10C8.55 10 9.02083 9.80417 9.4125 9.4125C9.80417 9.02083 10 8.55 10 8C10 7.45 9.80417 6.97917 9.4125 6.5875C9.02083 6.19583 8.55 6 8 6C7.45 6 6.97917 6.19583 6.5875 6.5875C6.19583 6.97917 6 7.45 6 8C6 8.55 6.19583 9.02083 6.5875 9.4125C6.97917 9.80417 7.45 10 8 10Z"></path>
+    <path d="M15 21L10 16L15 11L16.0625 12.0625L12.125 16L16.0625 19.9375L15 21ZM19 21L17.9375 19.9375L21.875 16L17.9375 12.0625L19 11L24 16L19 21Z"></path>
+  </symbol>
+  <symbol id="designers" viewBox="0 0 24 24">
+    <path d="M8 12C6.9 12 5.95833 11.6083 5.175 10.825C4.39167 10.0417 4 9.1 4 8C4 6.9 4.39167 5.95833 5.175 5.175C5.95833 4.39167 6.9 4 8 4C9.1 4 10.0417 4.39167 10.825 5.175C11.6083 5.95833 12 6.9 12 8C12 9.1 11.6083 10.0417 10.825 10.825C10.0417 11.6083 9.1 12 8 12ZM0 20V17.2C0 16.65 0.141667 16.1333 0.425 15.65C0.708333 15.1667 1.1 14.8 1.6 14.55C2.45 14.1167 3.40833 13.75 4.475 13.45C5.54167 13.15 6.71667 13 8 13H8.35C8.45 13 8.55 13.0167 8.65 13.05C8.51667 13.35 8.40417 13.6625 8.3125 13.9875C8.22083 14.3125 8.15 14.65 8.1 15H8C6.81667 15 5.75417 15.15 4.8125 15.45C3.87083 15.75 3.1 16.05 2.5 16.35C2.35 16.4333 2.22917 16.55 2.1375 16.7C2.04583 16.85 2 17.0167 2 17.2V18H8.3C8.4 18.35 8.53333 18.6958 8.7 19.0375C8.86667 19.3792 9.05 19.7 9.25 20H0ZM8 10C8.55 10 9.02083 9.80417 9.4125 9.4125C9.80417 9.02083 10 8.55 10 8C10 7.45 9.80417 6.97917 9.4125 6.5875C9.02083 6.19583 8.55 6 8 6C7.45 6 6.97917 6.19583 6.5875 6.5875C6.19583 6.97917 6 7.45 6 8C6 8.55 6.19583 9.02083 6.5875 9.4125C6.97917 9.80417 7.45 10 8 10Z"></path>
+    <path d="M12.9361 19C12.3528 19 11.8051 18.8678 11.2931 18.6034C10.781 18.339 10.35 17.9812 10 17.5298C10.4019 17.504 10.7454 17.3557 11.0306 17.0848C11.3157 16.814 11.4583 16.4787 11.4583 16.0789C11.4583 15.4598 11.6732 14.9407 12.1029 14.5216C12.5325 14.1024 13.0543 13.8929 13.6681 13.8929C14.282 13.8929 14.7995 14.1054 15.2208 14.5304C15.6421 14.9555 15.8528 15.4716 15.8528 16.0789C15.8528 16.8914 15.5708 17.5813 15.0069 18.1488C14.4431 18.7163 13.7528 19 12.9361 19ZM12.9361 17.7039C13.3853 17.7039 13.7698 17.5448 14.0897 17.2265C14.4095 16.9083 14.5694 16.5257 14.5694 16.0789C14.5694 15.8338 14.4819 15.6243 14.3069 15.4501C14.1319 15.276 13.9213 15.189 13.675 15.189C13.4287 15.189 13.2181 15.276 13.0431 15.4501C12.8681 15.6243 12.7806 15.8338 12.7806 16.0789C12.7806 16.3626 12.7481 16.6367 12.6833 16.901C12.6185 17.1654 12.4954 17.4008 12.3139 17.6071C12.4176 17.6329 12.5213 17.6555 12.625 17.6749C12.7287 17.6942 12.8324 17.7039 12.9361 17.7039ZM17.525 14.4152L15.5417 12.442L21.7444 6.27083C21.9259 6.09028 22.1463 6 22.4056 6C22.6648 6 22.8852 6.09028 23.0667 6.27083L23.7278 6.92857C23.9093 7.115 24 7.33248 24 7.58103C24 7.82959 23.9093 8.04415 23.7278 8.2247L17.525 14.4152Z"></path>
+  </symbol>
+  <symbol id="book" viewBox="0 0 24 24">
+    <path d="M3.29785 23.0205L17.209 23.0205C17.6816 23.0205 18.0684 22.6445 18.0684 22.1611C18.0684 21.7852 17.8105 21.4521 17.4668 21.334C16.1133 20.7969 15.834 19.0459 17.166 17.7031C17.5742 17.2949 18.0684 16.7686 18.0684 15.6943L18.0684 3.37305C18.0684 1.13867 16.9619 0 14.7383 0L3.33008 0C1.10645 0 0 1.12793 0 3.37305L0 19.7012C0 21.9141 1.11719 23.0205 3.29785 23.0205ZM1.72949 16.8115L1.72949 3.40527C1.72949 2.33105 2.29883 1.72949 3.40527 1.72949L14.6523 1.72949C15.7695 1.72949 16.3389 2.33105 16.3389 3.40527L16.3389 15.458C16.3389 16.0381 16.0059 16.3711 15.4043 16.3711L3.48047 16.3711C2.78223 16.3711 2.20215 16.5215 1.72949 16.8115ZM3.39453 21.291C2.30957 21.291 1.72949 20.7109 1.72949 19.6904C1.72949 18.7236 2.41699 18.1006 3.49121 18.1006L14.5127 18.1006C14.6523 18.1006 14.7812 18.0898 14.8887 18.0684C14.3838 19.1855 14.4697 20.3672 15.0391 21.291ZM2.99707 17.2949L4.4043 17.2949L4.4043 1.31055L2.99707 1.31055Z"></path>
+  </symbol>
+</svg>
+
+    <script>
+      document.body.classList.add("js");
+    </script>
+
+    <nav id="nav">
+      <div class="nav-btns">
+        <button class="js-nav-toggle svg-button" aria-label="Toggle sidebar" title="Toggle sidebar">
+          
+  <svg class="svgcon">
+    <use xlink:href="#sidebar"></use>
+  </svg>
+      </button>
+      </div>
+      <div>
+        <h1>基础应用</h1>
+        <a href="/" class="nav-link /">
+  <svg class="svgcon">
+    <use xlink:href="#home"></use>
+  </svg>
+ 主页</a><a href="/about/" class="nav-link nav-link--active /about/">
+  <svg class="svgcon">
+    <use xlink:href="#about"></use>
+  </svg>
+ 关于</a>
+      </div>
+
+      <div>
+        <h2>任务</h2>
+        
+              <a href="/chinese/" class="nav-link ">
+                
+  <svg class="svgcon">
+    <use xlink:href="#book"></use>
+  </svg>
+ 语文
+              </a>
+            
+              <a href="/english/" class="nav-link ">
+                
+  <svg class="svgcon">
+    <use xlink:href="#book"></use>
+  </svg>
+ 英语
+              </a>
+            
+              <a href="/biology/" class="nav-link ">
+                
+  <svg class="svgcon">
+    <use xlink:href="#book"></use>
+  </svg>
+ 生物学
+              </a>
+            
+              <a href="/geography/" class="nav-link ">
+                
+  <svg class="svgcon">
+    <use xlink:href="#book"></use>
+  </svg>
+ 地理
+              </a>
+            
+      </div>
+      <div>
+  <h2>其他APP</h2>
+  <a href="/others/" class="nav-link external-link">
+  <span class="site-title">
+  <span class="site-title__description">点击查看</span>
+</span>
+</a>   
+      </div>
+    </nav>
+
+    <main id="main">
+      <section>
+        <header id="header" class="heading">
+          <button id="menu" class="svg-button js-nav-toggle" aria-label="Toggle sidebar" title="Toggle sidebar">
+            
+  <svg class="svgcon">
+    <use xlink:href="#sidebar"></use>
+  </svg>
+
+          </button>
+          <script>
+            const $html = document.documentElement;
+
+// Handle show/hide of the nav on the initial (static) page load
+const navIsToggled = window.localStorage.getItem("nav-is-toggled");
+if (navIsToggled === "true") {
+console.log("was toggled, keeping toggled");
+$html.classList.add("nav-is-toggled");
+} else {
+console.log("keep in default state");
+}
+
+// Re-usable toggle
+const handleToggle = (remove = true) => {
+if ($html.classList.contains("nav-is-toggled")) {
+  $html.classList.remove("nav-is-toggled");
+  window.localStorage.setItem("nav-is-toggled", false);
+} else {
+  $html.classList.add("nav-is-toggled");
+  window.localStorage.setItem("nav-is-toggled", true);
+}
+};
+
+// Button to show/hide
+Array.from(document.querySelectorAll(".js-nav-toggle")).forEach((el) => {
+el.addEventListener("click", (e) => {
+  e.stopPropagation();
+  handleToggle();
+});
+});
+// Hide event on the document for mobile
+document.addEventListener("click", () => {
+if (
+  $html.classList.contains("nav-is-toggled") &&
+  window.matchMedia("(max-width: 883px)").matches
+) {
+  handleToggle(false);
+}
+});
+;
+          </script>
+          <!--页面标题header-->
+          <h1>
+            <span class="heading-title">关于我们</span>
+          </h1>
+        </header>
+        
+        
+  <script>
+    /** @typedef { 0 | 1 | 2 | 3 } SizeIdx */
+/** @typedef {'sm' | 'md' | 'lg' | 'xl'} SizeAbbr */
+/** @typedef {64 | 128 | 256 | 512 } SizeInt */
+
+const SIZES = {
+sm: 64,
+md: 128,
+lg: 256,
+xl: 512,
+};
+
+class IconList extends HTMLElement {
+constructor() {
+  super();
+}
+
+get space() {
+  return this.$space.value;
+}
+set space(newValue) {
+  // this.$space.value = newValue;
+  this.querySelector(".icon-list-content").style.gap = `${
+    newValue * 2
+  }px ${newValue}px`;
+}
+
+// this.size; // 'sm'
+get size() {
+  const index = this.$size.value;
+  return Object.keys(SIZES)[index];
+}
+// this.size = 'sm'
+set size(newValue) {
+  if (!Object.keys(SIZES).includes(newValue)) {
+    console.warn(
+      '[<icon-list>] Must be: `[size="%s"]`. Resetting value.',
+      Object.keys(SIZES).join(" | ")
+    );
+    return;
+  }
+
+  const index = Object.keys(SIZES).indexOf(newValue);
+  this.$size.value = index;
+
+  // This is only for styling. One day we'll use :has() and won't need this
+  this.setAttribute("size", newValue);
+
+  this._render();
+}
+
+connectedCallback() {
+  this.insertAdjacentHTML(
+    "afterbegin",
+    /*html*/
+  );
+
+  this.$size = this.querySelector("#js-size");
+  this.$size.addEventListener("input", (e) => {
+    const index = Number(e.target.value);
+    const value = Object.keys(SIZES)[index];
+    this.size = value;
+  });
+
+  this.$space = this.querySelector("#js-space");
+  this.$space.addEventListener("input", (e) => {
+    this.space = e.target.value;
+  });
+
+  const mediaQuery = window.matchMedia("(max-width: 520px)");
+  if (mediaQuery.matches) {
+    this.size = "sm";
+  }
+
+  document.addEventListener("htmx:afterSwap", () => {
+    this._render();
+  });
+}
+
+_render() {
+  /** @type {SizeInt} */
+  const size = SIZES[this.size];
+
+  const els = Array.from(this.querySelectorAll("img"));
+  const reg = /\/\d{2,4}\//;
+
+  els.forEach((el) => {
+    try {
+      el.setAttribute(
+        "src",
+        el.getAttribute("src").replace(reg, `/${size}/`)
+      );
+
+      // Might not be present if there's no 1024
+      if (el.hasAttribute("data-is-missing-1024") && size === 512) {
+        el.removeAttribute("srcset");
+      } else {
+        el.setAttribute(
+          "srcset",
+          el.getAttribute("src").replace(reg, `/${size * 2}/`) + " 2x"
+        );
+      }
+
+      el.setAttribute("width", size);
+      el.setAttribute("height", size);
+    } catch (e) {
+      console.error(e);
+    }
+  });
+}
+}
+
+window.customElements.define("icon-list", IconList);
+;
+  </script>
+  <script type="module" src="/assets/scripts/icon-dialog.js"></script>
+  <icon-list size="md">
+    <!--在这里添加主要内容。。。-->
+    <div>
+      <h1> </h1>
+      <h1>GO TODO</h1>
+      <span class="site-title__description">内部预览版v0.2</span>
+    </div>
+    <div></div>
+    <div>
+      <h1>制作人</h1>
+      <span class="site-title__description">CYR成永瑞</span>
+    </div>
+  </icon-list>
+
+        
+  
+  <script type="module">
+    document.addEventListener("click", (e) => {
+      const $el = e.target.closest("#next");
+
+      if (!$el) return;
+      e.preventDefault();
+      const href = $el.getAttribute("href");
+      const target = $el.getAttribute("hx-target");
+      const select = $el.getAttribute("hx-select");
+      fetch(href)
+        .then((res) => res.text())
+        .then((html) => {
+          // Insert the new HTML
+          const $html = new DOMParser().parseFromString(html, "text/html");
+          const $targetEl = $html.querySelector(target);
+          document
+            .querySelector(target)
+            .insertAdjacentHTML("beforeend", $targetEl.innerHTML);
+
+          // Update the button
+          document.querySelector("#next").outerHTML =
+            $html.querySelector("#next").outerHTML;
+        });
+    });
+  </script>
+
+      
+      </section>
+      
+
+
+    </main>
+
+    <!-- @TODO make this a dialog -->
+    <form class="quick-search">
+      <div class="quick-search__modal" hidden="">
+        <div class="quick-search__modal__inputs">
+          <div>
+            <input type="text" autocomplete="off" spellcheck="false" placeholder="Search..." name="quick-search-input" id="quick-search-input">
+            <button id="js-clear" type="reset" hidden="true">
+              
+  <svg class="svgcon">
+    <use xlink:href="#clear"></use>
+  </svg>
+
+            </button>
+          </div>
+          <button type="button" id="js-cancel">Cancel</button>
+        </div>
+        <output class="quick-search__modal__outputs">
+    <div class="qs-outputs__message">
+      <svg class="svgcon svgcon-search">
+        <use xlink:href="#search"></use>
+      </svg>
+      <p>
+        Search for apps, app developers, or icon designers. Or try 
+        <a href="/icons/">browsing all icons</a>.
+      </p>
+    </div>
+  </output>
+      </div>
+    </form>
+
+    <!-- Scripts for all pages -->
+    <script type="module" src="/assets/scripts/quick-search.js"></script>
+
+    <!-- prettier-ignore -->
+    <script>// Give nav clicks time to close nav (only when it's toggled, which it never is on desktop)
+Array.from(document.querySelectorAll("nav a:not([href*='google'])")).forEach(
+(a) => {
+  a.addEventListener("click", (e) => {
+    if (document.documentElement.classList.contains("nav-is-toggled")) {
+      e.preventDefault();
+      setTimeout(() => {
+        window.location = a.getAttribute("href");
+      }, 200);
+    }
+  });
+}
+);
+</script>
+  
+
+<dialog id="icon-dialog" onmousedown="event.target == this && this.close(-1)" onclose="this.returnValue = -1;">
+    <button arial-label="Close" onclick="this.parentElement.close()">
+      <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12.8536 2.85355C13.0488 2.65829 13.0488 2.34171 12.8536 2.14645C12.6583 1.95118 12.3417 1.95118 12.1464 2.14645L7.5 6.79289L2.85355 2.14645C2.65829 1.95118 2.34171 1.95118 2.14645 2.14645C1.95118 2.34171 1.95118 2.65829 2.14645 2.85355L6.79289 7.5L2.14645 12.1464C1.95118 12.3417 1.95118 12.6583 2.14645 12.8536C2.34171 13.0488 2.65829 13.0488 2.85355 12.8536L7.5 8.20711L12.1464 12.8536C12.3417 13.0488 12.6583 13.0488 12.8536 12.8536C13.0488 12.6583 13.0488 12.3417 12.8536 12.1464L8.20711 7.5L12.8536 2.85355Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+      </svg>
+    </button>
+
+    <div id="icon-dialog-content"></div>
+  </dialog>
+</body>
+</html>
